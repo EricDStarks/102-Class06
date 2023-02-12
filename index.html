@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-color: black;
+                color: lime;
+                text-align: center;
+            }
 
+            h1 {
+                background-color: black;
+                color: lime;
+                text-align: center;
+            }
+
+            img {
+                border-radius: 30%;
+                float: center;
+
+            }
+
+            .button {
+                background-color: black;
+                color: lime;
+                border: 2px lime;
+                float: center;
+
+            }
+
+            .topnav a {
+                float: center;
+                color: lime;
+                text-align: center;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <h1>Heroes In A Halfshell</h1>
+        <img src="https://i.pinimg.com/originals/23/21/f8/2321f8b33f8a171af19064b504222666.jpg" alt="My test image"/>
+
+        <label for="Username">Username</label>
+
+        <input type="text"
+        id="Username"
+        name="Username"
+        size="12">
+
+        <label for="Password">Password</label>
+
+        <input type="text"
+        id="Password"
+        name="Password"
+        size="12">
+
+        <input type="button" value="Login">
+
+        <div class="topnav">
+            <a href="Forgot Username/Password.css">Forgot Username/Password</a>
+            <a href="New User.css">New User</a>
+            <a href="Help.css">Help</a>
+        </div>
+
+        <input type="button" value="Sign in with Facebook">
+        <input type="button" value="Sign in with Google">
+
+        <script>
+
+            if (confirm("TMNT Biggest Fan?")) {
+                document.write("Free TMNT T-Shirt with sign up!");
+            }
+
+        </script>
+
+        <script>
+
+            var name = prompt("Please enter your favorite TMNT:", "foo@bar.co");
+            document.write("Your favorite here", name);
+            
+        </script>
+
+
+
+
+    </body>
+</html>
