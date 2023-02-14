@@ -4,6 +4,6 @@ function resetpassword() {
     let a1 = prompt(s1);
 
      {
-        alert("New Password: " + a1 + "Password Reset");
+        alert("Password Reset");
     }
 }
